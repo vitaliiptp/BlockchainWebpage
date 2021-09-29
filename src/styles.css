@@ -1,0 +1,31 @@
+body {
+    background-color: darkgray;
+}
+
+
+
+header{
+    display: flex;
+    
+
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50%;
+  
+}
+
+
+ .nav-buttons{
+    justify-content: space-around;
+
+} 
+
