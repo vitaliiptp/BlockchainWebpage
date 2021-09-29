@@ -6,26 +6,35 @@ body {
 
 header{
     display: flex;
-    
-
+    height: 8vh;
+    background-color: aquamarine;
+    margin: 20px;
 }
 
-#logo{
-    display: flex;
-    justify-content: flex-start;
+.logo img{
+   height: 100%;
 }
 
-nav{
-    list-style: none;
+.navigation{
     display: flex;
+    align-items: flex-end;
+    width: 100%;
     justify-content: flex-end;
-    margin-left: 50%;
-  
+      
 }
 
+.navigation a {
+    
+}
 
  .nav-buttons{
-    justify-content: space-around;
+    flex: 0.1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    text-align: center;
+    
 
 } 
 
