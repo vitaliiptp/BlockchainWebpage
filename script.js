@@ -1,5 +1,5 @@
 //links in the navigation with onclick-event
-document.body.addEventListener('click', (event)=>{
+function whichButton(event){       
      
     const logoImg = document.querySelector("#logo-img");
     const home = document.querySelector("#home");
@@ -8,31 +8,42 @@ document.body.addEventListener('click', (event)=>{
     const calculator = document.querySelector("#calculator");
     const contact = document.querySelector("#contact");
           
-        switch (event.target){   //with event.target we can check on which element the user clicked
+        switch (event.target){   //with event.target we can check on which element the user clicked/moved
             
             case logoImg:
-                window.location = "index.html";
-                break;
-
-            case home:
-                window.location = 'index.html';
-                break;
+                return "index.html";
                 
+            case home:
+                return 'index.html';
+                                
             case defi:
-                window.location = 'defi.html';
-                break;
-
+                return 'defi.html';
+                
             case blockchain:
-                window.location = 'blockchain.html';
-                break;
-
+                return 'blockchain.html';
+                
             case calculator: 
-                window.location = 'calculator.html';
-                break;
-
+                return 'calculator.html';
+                
             case contact:
-                window.location = 'contact.html';
-                break;
+                return  'contact.html';
             
+             
         }
-    })
+}
+
+document.body.addEventListener('click', (event) => {       
+    if (whichButton(event) != undefined){                   //if the pointer is not outside of the button
+        window.location = whichButton(event)}               // check which button was pressed and go to name.html
+})
+
+
+
+document.body.addEventListener('mouseover',(event) => {       
+    if (whichButton(event) != undefined){                 //if the pointer is not outside of the button
+        
+        event.target.style.backgroundColor ='#485460';   //change the color
+         
+        setTimeout(() => {event.target.style.backgroundColor = "";}, 500);  //and change the color after a short time back
+    }
+})
