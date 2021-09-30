@@ -59,6 +59,7 @@ nav ul
 {
     list-style-type: none;
     display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 nav li
@@ -87,8 +88,11 @@ nav a:hover
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
+    /*border: 3px solid rgb(122, 179, 194);
+    border-radius: 5px;*/
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
   #space {
       height: 100px;
       width: 100px;
