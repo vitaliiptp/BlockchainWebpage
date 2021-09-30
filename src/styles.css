@@ -1,40 +1,47 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(216, 216, 216);
+    max-width: 1000px;
+    min-width: 600px;
+    margin: auto;
 }
-
-
 
 header{
     display: flex;
-    height: 8vh;
-    background-color: aquamarine;
-    margin: 20px;
+    height: 4rem;
+    border-bottom: solid;    /* line under the whole header (as placeholder for future graphic or <hr>-element */
+    border-bottom-width: 2px;
 }
 
-.logo img{
-   height: 100%;
+.logo  {                             /*  positioning of logo box  */
+   margin: 0.5vh;
+   min-height: fit-content;
+   display: flex;
+   align-items: flex-end;
 }
 
-.navigation{
+.logo img {
+     height: 100%;                      /* image fills 100% of it's box (.logo) */
+     box-shadow: 2px 2px 5px grey;    /* litte shadow makes the egdes softer */
+}
+
+.menu-bar{                  
     display: flex;
     align-items: flex-end;
-    width: 100%;
     justify-content: flex-end;
-      
+    width: 100%;      
 }
 
-.navigation a {
-    
-}
 
  .nav-buttons{
-    flex: 0.1;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    margin: 5px;
+    flex: 0.16;         /* makes all button the same size */
     text-align: center;
+    margin: 0.5vh;
+    box-shadow: 1px 1px 5px grey; /* litte shadow makes the egdes softer */
+    border-radius: 5px; /*round button-corners */
     
-
+    font-family: Garamond,serif;
+    font-size: larger;
+     
 } 
+
 
