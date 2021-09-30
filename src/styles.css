@@ -1,3 +1,7 @@
+body {
+    background-color: cornflowerblue;
+}
+
 #bloc_page
 {
     width: 900px;
@@ -75,3 +79,31 @@ nav a:hover
     color: #760001;
     border-bottom: 3px solid #760001;
 }
+
+
+#contact {
+    font-size: 25px;
+    font-family: "Georama";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #space {
+      height: 100px;
+      width: 100px;
+
+
+  }
+
+  #message {
+      height: 300px;
+      width: 500px;
+  }
+
+  #email {
+      width: 200px;
+  }
+  #name {
+      width: 200px;
+  }
