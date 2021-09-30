@@ -40,6 +40,7 @@ header
     
     height: 120px;
 }
+    
 
 header h1
 {
@@ -64,6 +65,8 @@ nav ul
     list-style-type: none;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
 }
 
 nav li
@@ -81,8 +84,8 @@ nav a
 
 nav a:hover
 {
-    color: #760001;
-    border-bottom: 3px solid #760001;
+    color: #f0f0f0;
+    border-bottom: 3px solid #4ddb89;
 }
 
 
@@ -95,7 +98,8 @@ nav a:hover
     /*border: 3px solid rgb(122, 179, 194);*/
     border-radius: 5px;
     height: 600px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     font-family: 'Roboto Mono', monospace;
 }
   #space {
