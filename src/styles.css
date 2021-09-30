@@ -1,11 +1,13 @@
 body {
     background-color: cornflowerblue;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #bloc_page
 {
     width: 900px;
     margin: auto;
+    
 }
 
 /* Header */
@@ -92,6 +94,7 @@ nav a:hover
     border-radius: 5px;
     height: 600px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Roboto Mono', monospace;
 }
   #space {
       height: 100px;
