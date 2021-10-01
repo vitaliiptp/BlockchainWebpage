@@ -1,31 +1,122 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+    
+}
+
+/* Header */
+
+header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 
-
-header{
-    display: flex;
+#logo img
+{
+    
+    height: 120px;
+}
     
 
+header h1
+{
+    
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
 }
 
-#logo{
+header h2
+{
+    
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
     display: flex;
-    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
 }
 
-nav{
-    list-style: none;
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #f0f0f0;
+    border-bottom: 3px solid #4ddb89;
+}
+
+
+#contact {
+    font-size: 25px;
+    font-family: "Georama";
     display: flex;
-    justify-content: flex-end;
-    margin-left: 50%;
-  
+    justify-content: center;
+    align-items: center;
+    /*border: 3px solid rgb(122, 179, 194);*/
+    border-radius: 5px;
+    height: 600px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Roboto Mono', monospace;
 }
+  #space {
+      height: 100px;
+      width: 100px;
 
 
- .nav-buttons{
-    justify-content: space-around;
+  }
 
-} 
+  #message {
+      height: 300px;
+      width: 500px;
+  }
 
+  #email {
+      width: 200px;
+  }
+  #name {
+      width: 200px;
+  }
