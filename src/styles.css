@@ -7,6 +7,9 @@ html, body {
     font-family: 'Roboto Mono', monospace;
 }
 
+
+
+/*--------------------------------------------Header-Start--------------------------------------------*/
 header{
     display: flex;
 }
@@ -38,8 +41,14 @@ nav{
 
  .nav-buttons{
     justify-content: space-around;
-
 }
+
+/*--------------------------------------------Header-End--------------------------------------------*/
+
+
+
+
+/*--------------------------------------------DeFi-Start--------------------------------------------*/
 
 .defi {
     display: flex;
@@ -56,13 +65,6 @@ nav{
     width: 100%;
     height: 50%;
     border: 1px solid #875bb6;
-}
-
-.carousel-defi {
-    display: flex;
-    width: 30%;
-    height: 100%;
-    border: 1px solid #64b65b;
 }
 
 
@@ -109,11 +111,18 @@ nav{
 
 
 
-
+/*-------------------Carouse-Start-------------------*/
 * {box-sizing:border-box}
 
+.carousel-defi {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #64b65b;
+}
+
 /* Slideshow container */
-.slideshow-container {
+.carousel-defi {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -172,6 +181,11 @@ nav{
 }
 
 /* The dots/bullets/indicators */
+
+.dots-container {
+    display: flex;
+    justify-content: end;
+}
 .dot {
     cursor: pointer;
     height: 15px;
@@ -204,6 +218,8 @@ nav{
     from {opacity: .4}
     to {opacity: 1}
 }
+/*-------------------Carouse-End-------------------*/
+/*--------------------------------------------DeFi-End--------------------------------------------*/
 
 
 
@@ -220,7 +236,7 @@ nav{
 
 
 
-/*----------------------------------------Footer-----Start----------------------------------------*/
+/*--------------------------------------------Footer-Start--------------------------------------------*/
 
 footer{
     position: relative;
@@ -302,6 +318,11 @@ footer{
     line-height: 38px;
 }
 
+.footer-distributed .footer-center p a:hover {
+    text-decoration: none;
+    color: #0b3594;
+}
+
 .footer-distributed .footer-center p{
     display: inline-block;
     color: #343434;
@@ -324,6 +345,7 @@ footer{
 .footer-distributed .footer-right{
     width: 20%;
 }
+
 
 .footer-distributed .footer-company-about{
     line-height: 20px;
@@ -391,4 +413,4 @@ footer{
     }
 }
 
-/*----------------------------------------Footer-----End----------------------------------------*/
+/*--------------------------------------------Footer-End--------------------------------------------*/

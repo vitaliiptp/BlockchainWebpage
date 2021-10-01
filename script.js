@@ -1,3 +1,6 @@
+
+
+// ___________________________________________Carousel-Start___________________________________________
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +29,17 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+
+// ___________________________________________Carousel-End___________________________________________
+const sweetalert2 = require('sweetalert2');
+
+
+const email = document.querySelector(".fa-envelopeclick");
+email.onclick = () => {
+    alert("Ooops, looks like the email route is now working yet.")
+}
+
+// email.addEventListener("click", (event) => {
+//     email.style.backgroundColor = "black";
+//     alert("Ooops, looks like the email route is now working yet :-(")
+// })
