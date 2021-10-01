@@ -31,12 +31,14 @@ function showSlides(n) {
 }
 
 // ___________________________________________Carousel-End___________________________________________
+
 const sweetalert2 = require('sweetalert2');
 
 
-const email = document.querySelector(".fa-envelopeclick");
+const email = document.querySelector(".fa-envelopeonclick");
 email.onclick = () => {
-    alert("Ooops, looks like the email route is now working yet.")
+    email.style.backgroundColor = "black";
+    alert("Ooops, looks like the email route is now working yet.");
 }
 
 // email.addEventListener("click", (event) => {
