@@ -22,7 +22,7 @@ header {
 }
 
 #logo img {
-    height: 150px;
+    height: 160px;
 }
 
 
@@ -78,6 +78,23 @@ img {
     font-family: 'Roboto Mono', monospace;
 }
 
+
+#space {      /*This div space create a space beetween the nav bar and the content on the page*/
+    height: 130px;
+    width: 100%;
+
+}
+
+/*--------------------------------------------Index-page--------------------------------------------*/
+.tradingview-widget-container{  /*put arcticle next to the chart*/
+    display: flex;
+}
+.article1{
+    height: 33%;
+}
+.article2{
+    height: 33%;
+}
 
 /*--------------------------------------------DeFi-Start--------------------------------------------*/
 
@@ -435,11 +452,7 @@ footer {
 
 
   
-#space {
-      height: 50px;
-      width: 100%;
 
-  }
 
   #message {
       height: 300px;
