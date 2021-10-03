@@ -89,12 +89,22 @@ img {
 .tradingview-widget-container{  /*put arcticle next to the chart*/
     display: flex;
 }
-.article1{
+#containerArticle{  /*Container ON THE HOME PAGE WITH 3 ARTICLES. */
+    width:100%;
+
+}
+
+#article1 {
+    height: 33%;
+   
+    
+}
+#article2 {
     height: 33%;
 }
-.article2{
+#article3 {
     height: 33%;
-}
+}   /* END OF CONTAINER HOME PAGE */
 
 /*--------------------------------------------DeFi-Start--------------------------------------------*/
 
