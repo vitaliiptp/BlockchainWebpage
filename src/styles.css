@@ -29,21 +29,21 @@ header {
 
 /* Navigation */
 
-.menu-bar{                  
+.menu-bar{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    width: 100%;     
+    width: 100%;
 }
 
 .nav-buttons{
-    flex: 0.16;         
+    flex: 0.16;
     text-align: center;
     font-size: 1.5rem;
     color: #181818;
     margin: 0.5vh;
-    box-shadow: 1px 1px 5px grey; 
-    border-radius: 5px; 
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -95,8 +95,8 @@ img {
 
 #article1 {
     height: 33%;
-   
-    
+
+
 }
 #article2 {
     height: 33%;
@@ -512,7 +512,7 @@ footer {
 /*--------------------------------------------Footer-End--------------------------------------------*/
 
 
-  
+
 
 
   #message {
