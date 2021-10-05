@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/reset.css">
     <link rel="stylesheet" href="src/styles.css">
 
     <title>DeFi</title>
@@ -20,7 +21,9 @@
           <header>
 
                 <nav id="logo">
-                    <img src="src/logo2.png" alt="Logo"/>
+                    <a href="index.html" class="logo">
+                        <img src="src/logo2.png" alt="Logo"/>
+                    </a>
                 </nav>
 
                 <nav class="menu-bar">
@@ -32,75 +35,218 @@
 
             </header>
 
-                <div id="space"></div>
+            <div id="space"></div>
 
-            <div class="defi mainbox">
-                <div class="defi-expl">
-                    <!-- Slideshow container -->
-                    <div class="carousel-defi">
-                        <!-- Full-width images with number and caption text -->
-                        <div class="mySlides fade">
-                            <div class="numbertext">1 / 3</div>
-                            <img src="https://dummyimage.com/1000x200/000/fff" width="100%" height="100%">
-                            <div class="text">Caption Text</div>
-                        </div>
 
-                        <div class="mySlides fade">
-                            <div class="numbertext">2 / 3</div>
-                            <img src="https://dummyimage.com/1000x200/000/fff" width="100%" height="100%">
-                            <div class="text">Caption Two</div>
-                        </div>
+                <div class="defi-container mainbox">
+                    <div class="defi-expl">
+                        <!-- Slideshow container -->
+                        <div class="carousel-defi">
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade shadow">
+                                <div class="numbertext">1 / 4</div>
 
-                        <div class="mySlides fade">
-                            <div class="numbertext">3 / 3</div>
-                            <img src="https://dummyimage.com/1000x200/000/fff" width="100%" height="100%">
-                            <div class="text">Caption Three</div>
-                        </div>
+                                    <div class="carousel-txt">
+                                        <div class="slide-headline">
+                                            <p><h3><b>So, What Is DeFi?</b></h3></p>
+                                        </div>
+                                        <div class="slide-title">
+                                            <p><h5><b>1. Non-Custodial</b></h5></p>
+                                        </div>
+                                        <div class="slide-text">
+                                            <p>
+                                            <h6>Non-custodial distributed networks allow people to have control over
+                                            their own assets and data and for value to be transferred from one person
+                                            to another, without the need to use intermediaries like banks and other
+                                            financial institutions.
+                                            <br><br>
+                                            Users are the only ones who hold the keys to their wallets and control
+                                            their funds. The term used to describe this feature is that DeFi apps are
+                                            “non-custodial,” as no third parties have custody of your assets — you do.
+                                            <br><br>
+                                            This reduces the risk of censorship and losing money in one of the many
+                                            hacks suffered by centralized exchanges, but it also means individuals have
+                                            a huge responsibility on their shoulders and often no recourse if something
+                                            goes wrong (for example, losing your seed phrase).</h6>
+                                            </p>
+                                            <div class="slide-source"><p>Source: https://thedefiant.io/what-is-decentralized-finance/</p></div>
+                                        </div>
+                                    </div>
 
-                        <div class="mySlides fade">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="https://dummyimage.com/1000x200/000/fff" width="100%" height="100%">
-                            <div class="text">Caption Four</div>
-                        </div>
+<!--                                <img class="carousel-img" src="https://dummyimage.com/1000x200/000/fff" >-->
+<!--                                <div class="text">Caption One</div>-->
+                            </div>
 
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    <br>
+                            <div class="mySlides fade shadow">
+                                <div class="numbertext">2 / 4</div>
+                                    <div class="carousel-txt">
+                                        <div class="slide-headline">
+                                            <p><h3><b>So, What Is DeFi?</b></h3></p>
+                                        </div>
+                                        <div class="slide-title">
+                                            <p><h5><b>2. Open</b></h5></p>
+                                        </div>
+                                        <div class="slide-text">
+                                            <p>
+                                            <h6>In these open networks, there are no borders in this parallel financial
+                                            system and everyone can access it. It’s like the internet, but instead of
+                                            information being transferred globally, seamlessly and creatively, the same
+                                            is happening with money. It’s an internet of value.
+                                            <br><br>
+                                            All that’s needed is a blockchain wallet and an internet connection to start
+                                            interacting with DeFi applications. They won’t ask for users’ personal
+                                            information; not even a username and password is needed to join. your
+                                            identity is the jumble of letters and numbers that make up your blockchain
+                                            address. </h6>
+                                            </p>
+                                            <div class="slide-source"><p>Source: https://thedefiant.io/what-is-decentralized-finance/</p></div>
+                                        </div>
+                                    </div>
+<!--                                <img class="carousel-img" src="https://dummyimage.com/1000x200/000/fff">-->
+<!--                                <div class="text">Caption Two</div>-->
+                            </div>
 
-                        <!-- The dots/circles -->
-                        <div class="dots-container">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <div class="mySlides fade shadow">
+                                <div class="numbertext">3 / 4</div>
+                                    <div class="carousel-txt">
+                                        <div class="slide-headline">
+                                            <p><h3><b>So, What Is DeFi?</b></h3></p>
+                                        </div>
+                                        <div class="slide-title">
+                                            <p><h5><b>3. Transparent</b></h5></p>
+                                        </div>
+                                        <div class="slide-text">
+                                            <p>
+                                            <h6>Transparency is key within these networks. The code for these financial
+                                            applications is open for anyone to see and inspect. This is important because
+                                            anyone is able to verify how the applications and protocols work, and track
+                                            exactly where their money is.
+                                            <br><br>
+                                            Open-source code also enables developers to build on top of existing
+                                            applications, accelerating innovation and creating an interconnected ecosystem
+                                            that leverages the strengths of each piece, it’s why all the different DeFi
+                                            protocols and assets are often referred to as “money legos.”
+                                            <br><br>
+                                            Transparent code also means developers are free to copy applications and
+                                            build near replicas, that improve on some aspect of the original. For example,
+                                            if a platform is raising fees, users are free to copy and create an identical
+                                            application, with lower fees. The model takes competition to an extreme,
+                                            forcing builders to deliver the best possible product.</h6>
+                                            </p>
+                                            <div class="slide-source"><p>Source: https://thedefiant.io/what-is-decentralized-finance/</p></div>
+                                        </div>
+                                    </div>
+<!--                                <img class="carousel-img" src="https://dummyimage.com/1000x200/000/fff">-->
+<!--                                <div class="text">Caption Three</div>-->
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 4</div>
+                                    <div class="carousel-txt">
+                                        <div class="slide-headline">
+                                            <p><h3><b>So, What Is DeFi?</b></h3></p>
+                                        </div>
+                                        <div class="slide-title">
+                                            <p><h5><b>4. Decentralized</b></h5></p>
+                                        </div>
+                                        <div class="slide-text">
+                                            <p>
+                                            <h6>Decentralized finance protocols are, of course, decentralized, built on
+                                            public blockchains like Ethereum. These blockchains, the rails to this new
+                                            financial system, are run by thousands of nodes–computers running the
+                                            blockchain’s software– spread out across the globe, so that it’s almost
+                                            impossible to censor or stop them.
+                                            <br><br>
+                                            On top of this base layer of decentralization, DeFi platforms are built to be
+                                            managed by a community of users, and not centrally controlled. Users
+                                            become owners of their financial applications; they’re able to participate
+                                            in major decisions, including by proposing changes themselves, and benefit
+                                            from their growth and success. The goal is that no centralized party can
+                                            unilaterally take control of funds or change the rules of the game.</h6>
+                                            </p>
+                                            <div class="slide-source"><p>Source: https://thedefiant.io/what-is-decentralized-finance/</p></div>
+                                        </div>
+                                    </div>
+<!--                                <img class="carousel-img" src="https://dummyimage.com/1000x200/000/fff">-->
+<!--                                <div class="text">Caption Four</div>-->
+                            </div>
+
+<!--                        Next and previous buttons-->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <br>
+
+<!--                        The dots/circles-->
+                            <div class="dots-container">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="defi-expl-r">
-                        <p>Explanation of DeFi</p>
+                    <div class="defi-news-container">
+                        <div class="defi-news-box shadow">
+                            <div class="defi-news-img">
+                                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_728/https://thedefiant.io/wp-content/uploads/2021/10/defialliancehands.png" alt="DeFi News image">
+                            </div>
+                            <div class="defi-news-text">
+                                <div class="defi-news-link">
+                                    <a href="https://thedefiant.io/web3s-growing-market-cap-continues-to-serve-as-a-magnet-to-bring-talent-into-the-blockchain-enabled-space/">DeFi Alliance Announces New Hires as Web3 Continues to Attract Talent</a>
+                                </div>
+                                <div class="defi-news-paragraph">
+                                    <p>Web3’s growing market cap continues to serve as a magnet to bring talent into the
+                                    blockchain-enabled space.  DeFi Alliance, the startup accelerator akin to Y Combinator
+                                    but for DeFi, has poached three superstars who hail from Blackrock, Facebook and
+                                    Lambda School.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="defi-news-box shadow">
+                            <div class="defi-news-img">
+                                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://thedefiant.io/wp-content/uploads/2021/10/mkr-green-768x515.png" alt="DeFi News image">
+                            </div>
+                            <div class="defi-news-text">
+                                <div class="defi-news-link">
+                                    <a href="https://thedefiant.io/makerdao-climate-change/">Rune Christensen Makes Rallying Cry for MakerDAO to Help Fix Climate Change</a>
+                                </div>
+                                <div class="defi-news-paragraph">
+                                    <p>Climate change is the unifying challenge of the era and the biggest problem
+                                        humanity is running out of time to solve — and MakerDAO can help.
+                                        That’s the case Rune Christensen, the founder of MakerDAO, makes in a long essay
+                                        he released today called “The Case for Clean Money,” where he articulates a vision
+                                        for how the issuance of its DAI stablecoin could be used to drive investment in clean
+                                        energy sources at a global scale.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="defi-news-box shadow">
+                            <div class="defi-news-img">
+                                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_744/https://thedefiant.io/wp-content/uploads/2021/10/mkr-wintermute.png" alt="DeFi News image">
+                            </div>
+                            <div class="defi-news-text">
+                                <div class="defi-news-link">
+                                    <a href="https://thedefiant.io/wintermute-makerdao/">Wintermute Wants to Become MKR Market-Maker Via Governance Vote</a>
+                                </div>
+                                <div class="defi-news-paragraph">
+                                    <p>Market-making deals are usually sorted out in private, but DeFi might be making
+                                        headway for transparency. Wintermute proposed a market-making deal with MakerDAO
+                                        on Friday via the MakerDAO governance forum. </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="defi-news">
-                    <div class="defi-news1 news-container">
-                        <p>News</p>
-                    </div>
-                    <div class="defi-news2 news-container">
-                        <p>News</p>
-                    </div>
-                    <div class="defi-news3 news-container">
-                        <p>News</p>
-                    </div>
-                </div>
-            </div>
+
 
 
 
 
         <!--______________________________Footer___Start______________________________-->
-            <footer class="footer-distributed">
+            <footer class="footer-distributed shadow">
                 <div class="footer-left">
-                    <h3>Crypto<span>Watch</span></h3>
+                    <h3>Crypto<span>Watcher</span></h3>
                     <p class="footer-links">
                         <a href="#">Home</a>
                         ·
@@ -112,7 +258,7 @@
                         ·
                         <a href="#">Contact</a>
                     </p>
-                    <p class="footer-company-name">CryptoWatch &copy; 2021</p>
+                    <p class="footer-company-name">CryptoWatcher &copy; 2021</p>
                 </div>
                 <div class="footer-center">
                     <div>
@@ -125,8 +271,8 @@
                     </div>
                     <div>
                         <i class="fa fa-envelope"></i>
-                        <p class="fa-envelopeonclick"><a href="#">contact@cryptowatch.com</a></p>
-        <!--                <p><a href="mailto:support@company.com">contact@cryptowatch.com</a></p>-->
+                        <p class="fa-envelopeonclick"><a href="#">contact@cryptowatcher.com</a></p>
+        <!--                <p><a href="mailto:support@company.com">contact@cryptowatcher.com</a></p>-->
                     </div>
                 </div>
                 <div class="footer-right">
@@ -143,10 +289,7 @@
                 </div>
             </footer>
     <!--______________________________Footer___End______________________________-->
-
-
-      </div>
-
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
