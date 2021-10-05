@@ -22,7 +22,8 @@ header {
 }
 
 #logo img {
-    height: 160px;
+    height: 200%;
+    width: 200%;
 }
 
 
