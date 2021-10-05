@@ -9,7 +9,7 @@ body {
 }
 
 #bloc_page {
-    width: 900px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -106,17 +106,30 @@ img {
     gap: 1rem;   
 }
 
-#article1 {
+.article{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
     height: 33%;
-   
+}
+
+    .headline{
+        font-size: 1.1rem;
+        font-style: initial;
+        margin-bottom: 0rem;
+    } 
     
-}
-#article2 {
-    height: 33%;
-}
-#article3 {
-    height: 33%;
-}   /* END OF CONTAINER HOME PAGE */
+.headline:hover{
+        text-decoration: underline;
+    }
+    
+.news-text{
+        font-size: 1rem;
+    }
+    
+.news-text:hover{
+        text-decoration: underline;
+     
+} /* END OF CONTAINER HOME PAGE */
 
 /*--------------------------------------------DeFi-Start--------------------------------------------*/
 
@@ -473,14 +486,3 @@ footer {
 /*--------------------------------------------Footer-End--------------------------------------------*/
 
 
-  
-
-
-  #message {
-      height: 300px;
-      width: 500px;
-  }
-
-  #email #name {
-      width: 200px;
-  }
