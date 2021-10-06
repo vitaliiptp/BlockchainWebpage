@@ -22,12 +22,13 @@ body {
 
 header {
     display: flex;
-    height: 5rem;
+    height: 6rem;
+    border-bottom: 1px solid #E2E8F0;
 }
 
 #logo {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 #logo img {
@@ -82,7 +83,7 @@ img {
 
 
 #space {      /*This div space create a space beetween the nav bar and the content on the page*/
-    height: 90px;
+    height: 5rem;
     width: 100%;
 
 }
