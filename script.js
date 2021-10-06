@@ -32,16 +32,10 @@ function showSlides(n) {
 
 // ___________________________________________Carousel-End___________________________________________
 
-const sweetalert2 = require('sweetalert2');
-
-
 const email = document.querySelector(".fa-envelopeonclick");
-email.onclick = () => {
-    email.style.backgroundColor = "black";
-    alert("Ooops, looks like the email route is now working yet.");
-}
 
-// email.addEventListener("click", (event) => {
-//     email.style.backgroundColor = "black";
-//     alert("Ooops, looks like the email route is now working yet :-(")
-// })
+
+email.onclick = () => {
+    Swal.fire('Oops...', 'Looks like the backend is not connected yet!', 'error');
+    // alert("Ooops, looks like the backend is not connected yet.");
+};
