@@ -5,6 +5,9 @@ email.onclick = () => {
   // alert("Ooops, looks like the backend is not connected yet.");
 };
 
+
+
+
 // ___________________________________________Carousel-Start___________________________________________
 let slideIndex = 1;
 showSlides(slideIndex);
