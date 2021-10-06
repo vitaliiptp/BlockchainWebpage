@@ -4,7 +4,9 @@ body {
 }
 
 #bloc_page {
-    width: 900px;
+    height: 100vw;
+    width:100vw;
+    max-width: 900px;
     margin: auto;
 }
 
