@@ -145,7 +145,7 @@ img {
 
 .mySlides {
     display: flex;
-    background-color: #eae8e8;
+    background-color: #EFEFEFFF;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -162,7 +162,7 @@ img {
 
 .defi-news-box {
     display: flex;
-    background-color: #eae8e8;
+    background-color: #EFEFEFFF;
     flex: 1;
     width: 100%;
     text-align: center;
@@ -396,6 +396,7 @@ img {
 
 .bc-blocks {
     display: flex;
+    background-color: #EFEFEFFF;
     flex-direction: column;
     min-width: 30%;
     width: 24.5rem;
