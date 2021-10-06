@@ -12,8 +12,8 @@ body {
 }
 
 #bloc_page {
-    width:100vw;
     max-width: 1200px;
+    width: 100vw;
     margin: auto;
 }
 
@@ -56,9 +56,6 @@ header {
     font-family: 'Roboto Mono', monospace;
 }
 
-.nav li a {
-    color: #bbb7b7;
-}
 
 img {
     width: 250px;
@@ -76,43 +73,55 @@ img {
 }
 
 .mainbox {
-    font-size: 1.5rem;
-    display: flex;
-    /*border: 3px solid rgb(122, 179, 194);*/
+    font-size: 1.2rem;
     border-radius: 5px;
-    /*height: 600px;*/
-    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
-    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
     font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    
 }
 
 
 #space {      /*This div space create a space beetween the nav bar and the content on the page*/
-    height: 130px;
+    height: 90px;
     width: 100%;
 
 }
 
 /*--------------------------------------------Index-page--------------------------------------------*/
-.tradingview-widget-container{  /*put arcticle next to the chart*/
+.index-container{  
     display: flex;
-}
-#containerArticle{  /*Container ON THE HOME PAGE WITH 3 ARTICLES. */
-    width:100%;
-
+    /* margin:1rem; */
 }
 
-#article1 {
-    height: 33%;
-
-
+#tradingview_10ace{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
+    padding:5px;
+    margin-right: 1rem;
+    width: 60%;
+       
 }
-#article2 {
-    height: 33%;
+
+#containerArticle{  
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;  
+    gap: 0.8rem;   
 }
-#article3 {
-    height: 33%;
-}   /* END OF CONTAINER HOME PAGE */
+
+.article{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fafafa;
+    
+}
+
+    
+     
+/* END OF CONTAINER HOME PAGE */
 
 /*--------------------------------------------DeFi-Start--------------------------------------------*/
 
@@ -341,6 +350,40 @@ img {
 /*-------------------Carouse-End-------------------*/
 /*--------------------------------------------DeFi-End--------------------------------------------*/
 
+/* --------------------------------contact-BEGIN------------------------------------ */
+#contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    
+}
+
+#contact-form { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 23rem;
+    height: 28rem;
+    margin: 5rem;
+        
+}
+
+
+  #message {
+      height: 15rem;
+      width: 20rem;
+      
+  }
+
+  #email #name {
+      width: 10rem;
+  }
+
+  
+/* ---------------------------------------contact-END-------------------------------- */
 
 /*--------------------------------------------Blockchain-Start--------------------------------------------*/
 
@@ -584,14 +627,3 @@ footer {
 /*--------------------------------------------Footer-End--------------------------------------------*/
 
 
-
-
-
-  #message {
-      height: 300px;
-      width: 500px;
-  }
-
-  #email #name {
-      width: 200px;
-  }
