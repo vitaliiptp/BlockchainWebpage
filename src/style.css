@@ -64,7 +64,7 @@
 
     .defi-news-box {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
     .defi-news-img img {
         width: 100%;
