@@ -15,7 +15,6 @@ body {
     width:100vw;
     max-width: 1200px;
     margin: auto;
-    background-color: #f06b72;
 }
 
 
@@ -345,32 +344,59 @@ img {
 
 /*--------------------------------------------Blockchain-Start--------------------------------------------*/
 
-/** {box-sizing: border-box;}*/
-
 .bc-container {
-    background-color: #677abd;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    padding: 50px 0 40px 0;
 }
 
 .bc-blocks {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     min-width: 30%;
-    width: 20rem;
-    height: 35rem;
-    margin: 0 10px 20px 10px;
+    width: 24.5rem;
+    height: auto;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
 
+.bc-news-img {
+    display: flex;
+}
+
+.bc-news-img img {
+    width: 100%;
+    padding: 5px;
+    height: 15rem;
+}
+
+.bc-news-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    align-items: flex-start;
+    height: 14rem;
+}
+
+.bc-news-link a {
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
 }
 
 
+.bc-news-paragraph {
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+}
 
-
-
+.read-more a {
+    font-weight: bold;
+    color: #ae6eef;
+    font-size: 17px;
+}
 
 
 
