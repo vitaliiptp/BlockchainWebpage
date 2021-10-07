@@ -1,21 +1,7 @@
-.hamburger {
-    display: none;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #101010;
-}
-
 @media only screen and (max-width: 768px) {
     .menu-bar {
         position: fixed;
-        left: -100%;
+        left: 100%;
         top: 6rem;
         flex-direction: column;
         background-color: rgba(16, 16, 16, 0.31);
@@ -31,12 +17,12 @@
         left: 0;
     }
     .hamburger-container {
-        background-color: #bd678b;
-        display: flex;
+        position: absolute;
+        right: 0;
+        margin: 2rem 1rem 0 0;
     }
 
     .hamburger {
-        background-color: #677abd;
         display: block;
         cursor: pointer;
     }
@@ -62,14 +48,55 @@
         height: auto;
     }
 
+    .index-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    #tradingview_10ace{
+        width: 100%;
+        margin:0 0 1rem 0;
+    }
+
+    #containerArticle{
+        width:100%;
+    }
+
     .defi-news-box {
         flex-direction: column;
-        max-width: 50%;
+        /*max-width: 50%;*/
     }
-    .defi-news-img img {
+    /*.defi-news-img img {*/
+    /*    width: 100%;*/
+    /*    padding: 5px;*/
+    /*    height: 15rem;*/
+    /*}*/
+
+    #contact-container {
+
+    }
+
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
         width: 100%;
-        padding: 5px;
-        height: 15rem;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+    .main {
+        line-height: normal;
     }
 
 }
