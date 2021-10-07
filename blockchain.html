@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/dark.css">
     <link rel="stylesheet" href="src/reset.css">
+    
     <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="src/responsive.css">
 
@@ -45,7 +47,17 @@
         
         </header>
 
-        <div id="space"></div>
+        <div id="space">
+            <div id="darkt">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i class="ball"></i>
+                    <i class="em">🌜</i>
+                    <i class="em">🌞</i>
+                 
+                </label>
+              </div>
+        </div>
 
 <!--1-->
         <div class="bc-container">
@@ -305,6 +317,7 @@
         <!--______________________________Footer___End______________________________-->
     </div>
 
+    <script src="dark.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="script.js"></script>
     <script src="carousel.js"></script>
