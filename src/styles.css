@@ -395,19 +395,28 @@ img {
     margin: 5rem;
 }
 
+.form-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.form-form label {
+    font-weight: bold;
+}
+
 #name {
+    width: 100%;
+}
+
+#email {
     width: 100%;
 }
 
 #message {
   height: 15rem;
   width: 100%;
-  flex-wrap: wrap;
-}
-
-#email #name {
-  width: 100%;
-  flex-wrap: wrap;
 }
 
   
