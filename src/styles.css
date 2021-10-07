@@ -205,7 +205,7 @@ img {
     flex: 3;
     width: 100%;
     height: 100%;
-    padding: 0 10px 0 10px;
+    padding: 10px 10px 0 10px;
     text-align: justify;
     margin-top: 10px;
 }
@@ -214,6 +214,7 @@ img {
     font-size: 20px;
     color: black;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 
@@ -446,7 +447,7 @@ img {
     display: flex;
     flex-direction: column;
     margin: 1.5rem;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
     height: 14rem;
 }
 
@@ -454,6 +455,7 @@ img {
     font-size: 18px;
     color: black;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 
@@ -463,10 +465,17 @@ img {
     font-size: 16px;
 }
 
+.read-more {
+    position: absolute;
+    padding-top: 13rem;
+    /*margin-top: 12%;*/
+}
+
 .read-more a {
     font-weight: bold;
     color: #ae6eef;
     font-size: 17px;
+    text-decoration: none;
 }
 
 
