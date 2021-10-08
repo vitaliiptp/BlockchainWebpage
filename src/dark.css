@@ -3,7 +3,7 @@
 body.darkmode {  /*give the body this class when toggle */
     background-color: rgba(9, 24, 68, 0.87);
     opacity: 0,2;
-    background-image: url("darkbody2.png");
+    background-image: url("icons/darkbody2.png");
     background-repeat: no-repeat;
     transition: background 0.2s linear;
     color: rgb(252, 252, 252);
@@ -41,8 +41,12 @@ body.darkmode .mainbox {
 body.darkmode .footer-distributed{ /*Selecting footer */
     background-color: rgba(30, 46, 94, 0.87);
     color: rgb(252, 252, 252);
-
 }
+
+body.darkmode .footer-distributed .footer-icons a{ /*Selecting footer */
+    color: #343434;
+}
+
 body.darkmode .nav-buttons:hover {
    background-color:#f0f0f0bb;
 }
@@ -62,7 +66,7 @@ body.darkmode .footer-distributed h3 span{
 }
 
 body.darkmode .footer-distributed h3 {
-    color: rgb(99, 216, 236);
+    color: rgb(28, 152, 18);
 }
 body.darkmode .footer-distributed  a {
     color: white;
@@ -72,11 +76,9 @@ body.darkmode .footer-distributed  a {
 }*/
 
 #darkt{     /*This is the container of the button */
-    width:10px;
-    padding-top: 2px;
-    padding-right: 61px;;
-    padding-bottom: 40px;
-    height: 10px;
+    width:50px;
+    padding-top: 0.5rem;
+    height: 1rem;
 
 }
 
@@ -92,8 +94,8 @@ body.darkmode .footer-distributed  a {
   }
   
 .label {    /* this is the background of the dark button*/
-    background-color: #111;
-    width: 60px;
+    background-color: #e2e8f0;
+    width: 50px;
     height: 25px;
     display: flex;
     align-items: center;
@@ -104,8 +106,8 @@ body.darkmode .footer-distributed  a {
     
   }
 .ball {    /*The ball inside */
-    border: solid 5px rgb(24, 239, 255);
-    background-color: #e8edee;
+    border: solid 5px rgba(28, 152, 18, 0.8);
+    background-color: rgba(28, 152, 18, 0.8);
     position: absolute;
     top: 1px;
     left: 3px;
@@ -118,7 +120,8 @@ body.darkmode .footer-distributed  a {
   }
   .checkbox:checked + .label .ball { /*The transition when I click on the btn */
     transform: translateX(28px);
-    border: solid 5px rgb(185, 20, 255);
+    border: solid 5px rgba(185, 20, 255, 0.8);
+    background-color: rgba(185, 20, 255, 0.8);
   }
 
   

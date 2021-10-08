@@ -1,320 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="src/dark.css">
-    <link rel="stylesheet" href="src/reset.css">
-    
-    <link rel="stylesheet" href="src/styles.css">
-    <link rel="stylesheet" href="src/responsive.css">
+    <link
+      href="http://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/dark.css" />
+    <link rel="stylesheet" href="src/reset.css" />
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/responsive.css" />
 
     <title>Blockchain</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="bloc_page">
+      <header>
+        <nav id="logo">
+          <a href="index.html" class="logo">
+            <img src="src/icons/logos/logo.png" alt="Logo" />
+          </a>
+        </nav>
 
-    <div id ="bloc_page">
-    
-        <header>
-
-            <nav id="logo">
-                <a href="index.html" class="logo">
-                    <img src="src/logo2.png" alt="Logo"/>
-                </a>
-            </nav>
-
-            <nav class="menu-bar">
-                <button class="nav-buttons" onclick="window.location.href='./index.html'">Home</button>
-                <button class="nav-buttons" onclick="window.location.href='./defi.html'">DeFi</button>
-                <button class="nav-buttons" onclick="window.location.href= './blockchain.html'">Blockchain</button>
-                <button class="nav-buttons" onclick="window.location.href='./contact.html'">Contact</button>
-            </nav>
-            <div class="hamburger-container">
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
-        
-        </header>
-
-        <div id="space">
-            <div id="darkt">
-                <input type="checkbox" class="checkbox" id="chk" />
-                <label class="label" for="chk">
-                    <i class="ball"></i>
-                    <i class="em">🌜</i>
-                    <i class="em">🌞</i>
-                 
-                </label>
-              </div>
+        <nav class="menu-bar">
+          <button
+            class="nav-buttons"
+            onclick="window.location.href='./index.html'"
+          >
+            Home
+          </button>
+          <button
+            class="nav-buttons"
+            onclick="window.location.href='./defi.html'"
+          >
+            DeFi
+          </button>
+          <button
+            class="nav-buttons"
+            onclick="window.location.href= './blockchain.html'"
+          >
+            Blockchain
+          </button>
+          <button
+            class="nav-buttons"
+            onclick="window.location.href='./contact.html'"
+          >
+            Contact
+          </button>
+        </nav>
+        <div class="hamburger-container">
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
         </div>
+      </header>
 
-<!--1-->
-        <div class="bc-container">
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2020/09/Screen-Shot-2021-02-17-at-7.32.40-PM-600x598.png" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/what-is-decentralized-finance/">What is DeFi? A Decentralized Finance 101</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>Decentralized finance, or DeFi, is the ecosystem of financial applications being built with blockchain technology and without banks.  Money lives in cages:  Each financial system is locked within its own...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/what-is-decentralized-finance/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--2-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_275,h_183/https://thedefiant.io/wp-content/uploads/2020/10/lego-blocks.jpeg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/getting-started-with-defi/">A DeFi Introduction: Getting Started in Decentralized Finance</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>In this guide we’ll be helping you take your first steps into the boundless world of Decentralized Finance, better known as DeFi. DeFi is a growing movement which has the...</p>
-                    </div>
-                    <div class="read-more" >
-                        <a href="https://thedefiant.io/getting-started-with-defi/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--3-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2020/10/compass-2-600x400.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/defi-projects-map/">Ethereum DeFi Projects Map</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>DeFi is a growing ecosystem of protocols and applications, which are delivering value to several thousands of users, and transacting the equivalent of hundreds of millions of dollars in digital...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/defi-projects-map/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--4-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/03/shutterstock_145154578-600x399.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/defi-security-101/">DeFi Security 101</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>This article was written together with Ledger, a hardware wallet and application to securely buy, sell, exchange, stake, lend & manage your crypto. Owning crypto is a path made of...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/defi-security-101/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--5-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/dapps-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/whats-a-dapp-and-how-does-it-use-smart-contracts/">What is a Dapp and How Does it Use Smart Contracts?</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>dApps or decentralized applications are applications powered by a public blockchain protocol like Ethereum. When you build a dApp on Ethereum, you’re programming a simple set of rules for an...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/whats-a-dapp-and-how-does-it-use-smart-contracts/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--6-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/lending-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/common-uses-of-defi-lending-borrowing-trading-and-stablecoins/">Common Uses of DeFi: Lending, Borrowing, Trading, and Stablecoins</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>In DeFi, the possibilities of what can be built to replace legacy finance are endless, but there are a few use cases that every newcomer to DeFi will want to...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/common-uses-of-defi-lending-borrowing-trading-and-stablecoins/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--7-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/cefi-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/how-does-defi-differ-from-cefi/">How Does DeFi Differ From CeFi?</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>There are 3 major differences to know between CeFi and DeFi. 1) Centralized finance (CeFi) refer to crypto banking companies like Coinbase, Binance, and Huobi, which are owned by a...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/how-does-defi-differ-from-cefi/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--8-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/wallets-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/defi-wallets-and-self-custody-how-to-be-100-in-control/">DeFi Wallets and Self-Custody: How to be 100% in Control</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>In DeFi, your money becomes empowered. You can store it, lend it, trade it, zap it, and track it real-time. It’s a bit like a game but at the heart...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/defi-wallets-and-self-custody-how-to-be-100-in-control/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--9-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/permissionless-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/what-does-permissionless-mean-and-why-does-it-matter/">What Does “Permissionless” Mean and Why Does it Matter?</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>When you use a DeFi application, there’s no sign-up with your email and name, there’s no ID required, and in most cases, there’s no restriction on your geographical location. All...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/what-does-permissionless-mean-and-why-does-it-matter/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--10-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/trust-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/trust-intermediaries-censorship-p2p/">Trust, Intermediaries and Censorship</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>When you use a DeFi application, it’s powered by hardcoded rules. The idea is that these rules provide users with the ability to do powerful but predictable things with their...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/trust-intermediaries-censorship-p2p/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--11-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/kyc-thumb-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/kyc-and-why-its-not-needed-in-defi/">KYC and Why It’s Not Needed in DeFi</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>While crypto has been around over 10 years, the most popular apps until the last year have been centralized crypto exchanges. These centralized exchanges like Binance and Coinbase do billions...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/kyc-and-why-its-not-needed-in-defi/">Read More</a>
-                    </div>
-                </div>
-            </div>
-<!--12-->
-            <div class="bc-blocks shadow">
-                <div class="bc-news-img">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600/https://thedefiant.io/wp-content/uploads/2021/02/permissionless-thumb-1-600x338.jpg" alt="Blockchain News image">
-                </div>
-                <div class="bc-news-text">
-                    <div class="bc-news-link">
-                        <a href="https://thedefiant.io/what-is-interoperability-and-why-is-it-important/">What is Interoperability and Why is it Important?</a>
-                    </div>
-                    <div class="bc-news-paragraph">
-                        <p>Interoperability happens when two or more systems can communicate and exchange value. The best way to understand interoperability is to see the early success stories of it in action. Today...</p>
-                    </div>
-                    <div class="read-more">
-                        <a href="https://thedefiant.io/what-is-interoperability-and-why-is-it-important/">Read More</a>
-                    </div>
-                </div>
-            </div>
+      <div id="space">
+        <div id="darkt">
+          <input type="checkbox" class="checkbox" id="chk" />
+          <label class="label" for="chk">
+            <i class="ball"></i>
+            <i class="em"></i>
+            <i class="em"></i>
+          </label>
         </div>
+      </div>
 
-
-
-
-        <!--______________________________Footer___Start______________________________-->
-        <footer class="footer-distributed shadow">
-            <div class="footer-left">
-                <h3>Crypto<span>Watcher</span></h3>
-                <p class="footer-links">
-                    <a href="#">Home</a>
-                    ·
-                    <a href="#">Defi</a>
-                    ·
-                    <a href="#">Blockchain</a>
-                    ·
-                    <a href="#">Calculator</a>
-                    ·
-                    <a href="#">Contact</a>
-                </p>
-                <p class="footer-company-name">CryptoWatcher &copy; 2021</p>
+      <!--1-->
+      <div class="bc-container">
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/4.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
             </div>
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                    <p><span>4 Privet Drive</span> Bracknell, UK</p>
-                </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+9 999 9999999</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p class="fa-envelopeonclick"><a href="#">contact@cryptowatcher.com</a></p>
-<!--                    <p><a href="mailto:support@company.com">contact@cryptowatcher.com</a></p>-->
-                </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                amet aperiam dignissimos fugiat fugit hic labore libero magnam,
+                molestias nam obcaecati odio omnis praesentium quis reiciendis
+                rem, rerum soluta velit?
+              </p>
             </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span>About the company</span>
-                    CryptoWatch is a web-resource for ...
-                </p>
-                <div class="footer-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
             </div>
-        </footer>
-        <!--______________________________Footer___End______________________________-->
+          </div>
+        </div>
+        <!--2-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/5.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consectetur dicta eos excepturi magnam necessitatibus nemo
+                obcaecati! Commodi eligendi et vero. Amet aspernatur modi, quia
+                recusandae rerum sequi tempore! Nobis, quaerat!
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--3-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/6.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam aperiam autem blanditiis debitis delectus dignissimos
+                error eveniet ex ipsa itaque modi natus nesciunt non pariatur
+                quasi quo quod recusandae, velit!
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--4-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/7.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+                beatae commodi debitis doloremque dolores facere ipsam iste
+                maxime molestias natus, numquam quae quaerat quisquam quo ut.
+                Eaque eius recusandae vero?
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--5-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/8.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium aliquam deserunt dignissimos dolorum eaque eos
+                exercitationem ipsam nihil odio pariatur quidem, reprehenderit
+                temporibus voluptate! Dolore illo ipsa odit suscipit totam!
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--6-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/9.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad
+                aliquid aspernatur autem eos ex, exercitationem expedita
+                incidunt iusto laboriosam maiores officia, optio perferendis
+                quae quia quod repellendus repudiandae voluptatem.
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--7-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/10.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam dignissimos libero quod saepe velit. Aut dolor enim eos
+                ex expedita, laborum mollitia nemo nesciunt nulla, omnis quidem
+                reiciendis repudiandae sint!
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--8-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/11.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Adipisci culpa cupiditate deserunt et, eum, fugit id maxime
+                officiis optio praesentium recusandae repudiandae sequi sint
+                tempore totam! Fuga labore quod sunt?
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--9-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/12.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                laboriosam mollitia quae rerum suscipit! Adipisci amet
+                distinctio doloribus, illum modi molestiae mollitia,
+                perspiciatis porro quia quidem rerum, sed tempora voluptates.
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--10-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/13.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                aperiam enim facere facilis ipsum odio optio quis rem
+                voluptates? Cumque laudantium non voluptates? Asperiores
+                aspernatur eveniet, hic obcaecati odio temporibus.
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--11-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/14.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusantium, aut autem delectus deleniti distinctio eaque iste
+                ratione! Assumenda blanditiis commodi, corporis cumque
+                doloribus, dolorum harum iste magnam optio rerum, veniam!
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!--12-->
+        <div class="bc-blocks shadow">
+          <div class="bc-news-img">
+            <img src="src/icons/cats/1.png" alt="Blockchain News image" />
+          </div>
+          <div class="bc-news-text">
+            <div class="bc-news-link">
+              <a href="#"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a
+              >
+            </div>
+            <div class="bc-news-paragraph">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam at atque ipsam iusto molestias nesciunt nisi
+                praesentium? Blanditiis, cum debitis et exercitationem fuga in
+                inventore laborum nihil nobis officia tempora?
+              </p>
+            </div>
+            <div class="read-more">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--______________________________Footer___Start______________________________-->
+      <footer class="footer-distributed shadow">
+        <div class="footer-left">
+          <h3>Crypto<span>Watcher</span></h3>
+          <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Defi</a>
+            ·
+            <a href="#">Blockchain</a>
+            ·
+            <a href="#">Calculator</a>
+            ·
+            <a href="#">Contact</a>
+          </p>
+          <p class="footer-company-name">CryptoWatcher &copy; 2021</p>
+        </div>
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>4 Privet Drive</span> Bracknell, UK</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+9 999 9999999</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p class="fa-envelopeonclick">
+              <a href="#">contact@cryptowatcher.com</a>
+            </p>
+            <!--                    <p><a href="mailto:support@company.com">contact@cryptowatcher.com</a></p>-->
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About the company</span>
+            CryptoWatch is a web-resource for ...
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+      </footer>
+      <!--______________________________Footer___End______________________________-->
     </div>
 
     <script src="dark.js"></script>
@@ -322,5 +434,5 @@
     <script src="script.js"></script>
     <script src="carousel.js"></script>
     <script src="hamburger.js"></script>
-</body>
+  </body>
 </html>

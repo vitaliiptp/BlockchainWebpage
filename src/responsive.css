@@ -1,102 +1,100 @@
 @media only screen and (max-width: 768px) {
-    .menu-bar {
-        position: fixed;
-        left: 100%;
-        top: 6rem;
-        flex-direction: column;
-        background-color: rgba(16, 16, 16, 0.31);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-                0 10px 27px rgba(0, 0, 0, 0.05);
-        z-index: 500;
-    }
+  .menu-bar {
+    position: fixed;
+    left: 100%;
+    top: 6rem;
+    flex-direction: column;
+    background-color: rgba(16, 16, 16, 0.31);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 500;
+  }
 
-    .menu-bar.active {
-        left: 0;
-    }
-    .hamburger-container {
-        position: absolute;
-        right: 0;
-        margin: 2rem 1rem 0 0;
-    }
+  .menu-bar.active {
+    left: 0;
+  }
+  .hamburger-container {
+    position: absolute;
+    /*top: 0;*/
+    right: 0;
+    /*transform: translateY(100%) translateX(-100%);*/
+    margin: 2rem 1rem 0 0;
+  }
 
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    #logo {
-        display: flex;
-        align-items: center;
-    }
+  #logo {
+    display: flex;
+    align-items: center;
+  }
 
-    #logo img {
-        max-width: 40%;
-        height: auto;
-    }
+  #logo img {
+    max-width: 40%;
+    height: auto;
+  }
 
-    .index-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
+  .index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
 
-    #tradingview_10ace{
-        width: 100%;
-        margin:0 0 1rem 0;
-    }
+  #tradingview_10ace {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
 
-    #containerArticle{
-        width:100%;
-    }
+  #containerArticle {
+    width: 100%;
+  }
 
-    .defi-news-box {
-        flex-direction: column;
-        /*max-width: 50%;*/
-    }
-    /*.defi-news-img img {*/
-    /*    width: 100%;*/
-    /*    padding: 5px;*/
-    /*    height: 15rem;*/
-    /*}*/
+  .defi-news-box {
+    flex-direction: column;
+    /*max-width: 50%;*/
+  }
+  /*.defi-news-img img {*/
+  /*    width: 100%;*/
+  /*    padding: 5px;*/
+  /*    height: 15rem;*/
+  /*}*/
 
-    #contact-container {
+  #contact-container {
+  }
 
-    }
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
 
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
-    .footer-distributed{
-        font: bold 14px sans-serif;
-    }
-
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right{
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    .footer-distributed .footer-center i{
-        margin-left: 0;
-    }
-    .main {
-        line-height: normal;
-    }
-
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+  .main {
+    line-height: normal;
+  }
 }
